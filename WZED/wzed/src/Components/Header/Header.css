@@ -1,0 +1,46 @@
+.navbar {
+    height: 80px;
+}
+
+.nav-logo {
+    width: 14vw;
+    height: 4vw;
+}
+
+.nav-portfolio {
+    color: rgb(102, 102, 102);
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-stretch: expanded;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.nav-about {
+    color: rgb(102, 102, 102);
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-stretch: expanded;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.contact-button.btn-primary {
+    background-color: rgb(194, 26, 48);
+    border-color: rgb(194, 26, 48);
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-stretch: expanded;
+    width: 7.5vw;
+    height: 46px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-button.btn-primary:hover {
+    background-color: rgb(194, 26, 48);
+    border-color: rgb(194, 26, 48);
+}

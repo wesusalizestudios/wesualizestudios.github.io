@@ -1,0 +1,26 @@
+.ourclientsbanner-text {
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.ourclients-container {
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0% 33%, 100% 33%, 100% 68%, 0% 68%);
+    margin-top: -19%;
+}
+
+.ourclients-bottom-banner-container {
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0% 10.5%, 100% 10.5%, 100% 90%, 0% 90%);
+    margin-top: -24%;
+}
