@@ -45,13 +45,13 @@
 @media (width <= 800px) {
     .about-container {
         height: 240px;
-        width: 100%;
-        /* min-width: 330px; */
+        /* width: 100%; */
+        min-width: 480px;
         overflow: hidden;
-        clip-path: polygon(0% 12%, 100% 12%, 100% 89%, 0% 89%);
-        margin-top: -8%;
+        clip-path: polygon(0% 14%, 100% 14%, 100% 86%, 0% 86%);
+        margin-top: -7%;
         background-image: url('../../../Images/about-banner.webp');
-        background-size: 175%;
+        background-size: 130%;
         background-position: center center;
     }
 

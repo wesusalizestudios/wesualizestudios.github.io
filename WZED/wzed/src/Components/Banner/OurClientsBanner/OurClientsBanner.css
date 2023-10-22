@@ -24,32 +24,3 @@
     clip-path: polygon(0% 10.5%, 100% 10.5%, 100% 90%, 0% 90%);
     margin-top: -24%;
 }
-
-@media (width <= 1500px) {
-}
-
-@media (width <= 1200px) {
-    .ourclientsbanner-text {
-        font-size: xx-large;
-    }
-
-    .ourclients-img {
-        min-height: 450px;
-    }
-
-    .ourclients-container {
-        clip-path: polygon(0% 33%, 100% 33%, 100% 68%, 0% 68%);
-    }
-}
-
-@media (width <= 800px) {
-    .ourclientsbanner-text {
-        display: flex;
-        left: 125px;
-        justify-content: left;
-    }
-
-    .ourclients-img {
-        min-height: auto;
-    }
-}
