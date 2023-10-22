@@ -75,12 +75,16 @@
     flex: 0 0 335px;
 }
 
-.bottom-banner-img {
-    filter: saturate(130%);
-}
-
 .bottom-banner-container {
     background-color: #f15946;
+    height: 270px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.bottom-banner {
+    max-width: 1050px;
+    min-width: 1050px;
 }
 
 @media (width <= 1500px) {

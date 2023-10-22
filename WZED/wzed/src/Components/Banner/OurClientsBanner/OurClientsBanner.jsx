@@ -6,7 +6,7 @@ const OurClientsBanner = () => {
   return (
     <React.Fragment>
         <div className="ourclients-container">
-            <img className="w-100" src={OurClientsImg} alt="OurClientsBanner" />
+            <img className="ourclients-img w-100" src={OurClientsImg} alt="OurClientsBanner" />
             <h2 className='ourclientsbanner-text'>OUR CLIENTS</h2>
         </div>
     </React.Fragment>

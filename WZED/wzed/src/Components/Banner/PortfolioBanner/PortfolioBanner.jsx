@@ -6,7 +6,6 @@ const PortfolioBanner = () => {
   return (
     <React.Fragment>
         <div className="portfolio-container">
-            {/* <img className='portfolio-bg-img' src={PortfolioImg} alt="Portfolio-banner" /> */}
             <h2 className='portfoliobanner-text'>PORTFOLIO</h2>
             <p className='portfoliobanner-sub-text'>Check out our recent projects !</p>
             <div className="boxes row">
